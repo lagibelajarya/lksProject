@@ -2,6 +2,9 @@
 html {
   font-family: Poppins;
 }
+body{
+  overflow-x: hidden;
+}
 :root{
   --hijau:#00c500;
   --abu:#f8f8f8f8;
@@ -183,7 +186,10 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* overflow-x:hidden; */
+  overflow:hidden;
+}
+.portofolio-title h3{
+font-size: 2.5vw;
 }
 .portofolio-container .portofolio-button-container {
   margin: 0 10% 0 10%;
@@ -218,10 +224,10 @@ html {
   font-size: 1vw;
 }
 
-.testimonials .rounded-circle{
+.testimonials-container .rounded-circle{
   width: 6vw;
 }
-input{
+.portofolio-container input{
   visibility: hidden;
 }
 .label {
@@ -237,12 +243,16 @@ input{
   background-color: #00c500;
 }
 
-
+.testimonials{
+  overflow-x: hidden;
+  width: auto;
+}
 .box-testimonials{
   width: 100%;
 }
-.testimonials{
-  width: 400vw;
+.testimonials-container{
+  width: 400%;
+
 }
 .text-testimonials{
   width: 53%;
@@ -285,6 +295,9 @@ input{
   font-weight: 500;
   font-style: normal;
   font-size: 1.1vw;
+}
+.tim-title h3{
+  font-size: 2.5vw;
 }
 .tim-galery img{
   width: 20vw;
@@ -453,6 +466,9 @@ width: 70%;
 }
 .footer-btn .btn{
 width:40%;
-height: 2.7vw;
+height: 100%;
 border-radius: 0%;
+}
+.footer-btn .field:hover{
+  background-color: #fff;
 }
