@@ -70,11 +70,17 @@ html {
 .iklan-box.dua {
   background: linear-gradient(#0000, rgb(59, 59, 59), #000);
 }
-.iklan-box img {
-  width: 3vw;
-  margin: 5% 0 0 5%;
-  align-self: flex-start;
+.iklan-box .book{
+  font-size: 4vw;
+  color: var(--hijau);
+  margin: 5% 0 0 20%;
 }
+.iklan-box .stopwatch,.heart{
+  font-size: 4vw;
+  color: var(--hijau);
+  margin: 5% 0 0 5%;
+}
+
 .iklan-box.satu img {
   margin-left: 20%;
 }
@@ -166,8 +172,9 @@ html {
   justify-content: center;
   border-radius: 50%;
 }
-.icon-container img {
-  width: 65%;
+.icon-container ion-icon {
+  font-size: 2.5vw;
+  color: #fff;
 }
 /* ------------------ */
 .portofolio-container {
@@ -176,7 +183,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
+  /* overflow-x:hidden; */
 }
 .portofolio-container .portofolio-button-container {
   margin: 0 10% 0 10%;
@@ -232,10 +239,13 @@ input{
 
 
 .box-testimonials{
+  width: 100%;
 }
 .testimonials{
-
   width: 400vw;
+}
+.text-testimonials{
+  width: 53%;
 }
 
 /* 
@@ -295,8 +305,9 @@ input{
   flex-direction: column;
   width: 20vw;
 }
-.kontak-addres img{
-width: 3vw;
+.kontak-addres ion-icon{
+font-size: 3vw;
+color: var(--hijau);
 }
 .kontak-addres h3{
   font-size: 1.3vw;
@@ -406,9 +417,42 @@ margin: 0;
 width: 1.5vw;
 height: 1vw;
 }
+
+.footer-socialMedia-icon{
+  margin-top: 10%;
+}
+.footer-icon{
+  width:3vw ;
+  height:3vw ;
+  background-color:rgba(161, 161, 161, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60%;
+}
+.footer-socialMedia-icon ion-icon{
+  font-size: 1.5vw;
+}
+.footer-icon:hover{
+  background-color:#f8f8f8 ;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.footer-info input{
+  visibility: visible;
+}
 .footer-info {
   width: 20vw;
 }
 .footer-info p {
-  width: 100%;
+  width: 95%;
+}
+.footer-btn .field{
+width: 70%;
+}
+.footer-btn .btn{
+width:40%;
+height: 2.7vw;
+border-radius: 0%;
 }
