@@ -1,191 +1,191 @@
-@media screen and (max-width:768px){
-    #myNavbar{
-        height: 8vw;
-        width: 100vw;
-    }
-    #myNavbar .logo{
-       justify-self: start;
-    }
-  
-    .text-bank {
-      width: 40%;
-      height: 18vw;
-    }
-    .text-bank .h5 {
-      font-size: 2vw;
-    }
-    .text-bank p {
-      font-size: 1.3vw;
-    }
-    .logo h1{
-        font-size: 4vw;
-    }
-    #card-about {
-        width: 25vw;
-        height: 27vw;
-      }
-      .about-title p {
-          font-size: 1.5vw
-      }
-      .portofolio-container .portofolio-button-container {
-        margin: 0 0% 0 0%;
-        width: 60%;
-        
-      }
-      .portofolio-container .portofolio-button-container .btn {
-        width: 100%;
-        height: 4vw;
-        font-size: 1.3vw;
-      }
-     
-#card-portofolio .card-title {
+@media screen and (max-width: 768px) {
+  #myNavbar {
+    height: 8vw;
+    width: 100vw;
+  }
+  #myNavbar .logo {
+    justify-self: start;
+  }
+
+  .text-bank {
+    width: 40%;
+    height: 18vw;
+  }
+  .text-bank .h5 {
+    font-size: 2vw;
+  }
+  .text-bank p {
+    font-size: 1.3vw;
+  }
+  .logo h1 {
+    font-size: 4vw;
+  }
+  #card-about {
+    width: 25vw;
+    height: 27vw;
+  }
+  .about-title p {
+    font-size: 1.5vw;
+  }
+  .portofolio-container .portofolio-button-container {
+    margin: 0 0% 0 0%;
+    width: 60%;
+  }
+  .portofolio-container .portofolio-button-container .btn {
+    width: 100%;
+    height: 4vw;
+    font-size: 1.3vw;
+  }
+
+  #card-portofolio .card-title {
     font-size: 2vw;
   }
   #card-portofolio .card-text {
     font-size: 1.3vw;
   }
-  
-.testimonials-container .rounded-circle{
+
+  .testimonials-container .rounded-circle {
     width: 10vw;
   }
-      .text-testimonials{
-          width: 80%;
-      }
- .text-testimonials p{
-     margin: 0;
-     font-size: 1.5vw;
- }
- .box-testimonials p:nth-child(3){
-     margin-bottom: 2%;
-     font-size: 1.3vw;
- }
- .box-testimonials img{
-     margin: 0;
- }
- .text-center.mt-3{
+  .text-testimonials {
+    width: 80%;
+  }
+  .text-testimonials p {
+    margin: 0;
     font-size: 1.5vw;
   }
-  #kontak .text-center.mt-3{
-      font-size: 1.2vw;
+  .box-testimonials p:nth-child(3) {
+    margin-bottom: 2%;
+    font-size: 1.3vw;
   }
-  .kontak-addres{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
+  .box-testimonials img {
+    margin: 0;
   }
-  #kontak ion-icon{
-      font-size: 4vw;
+  .text-center.mt-3 {
+    font-size: 1.5vw;
   }
-  #kontak h3{
-      font-size: 1.8vw;
+  #kontak .text-center.mt-3 {
+    font-size: 1.2vw;
+  }
+  .kontak-addres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #kontak ion-icon {
+    font-size: 4vw;
+  }
+  #kontak h3 {
+    font-size: 1.8vw;
   }
 
-  #kontak .text-center.mt-1{
-      font-size: 1.3vw;
+  #kontak .text-center.mt-1 {
+    font-size: 1.3vw;
   }
- .kontak-addres-container{
-     margin-top: 3% !important;
- }
-.textarea-container input{
+  .kontak-addres-container {
+    margin-top: 3% !important;
+  }
+  .textarea-container input {
     height: 4vw;
-    width:16vw ;
+    width: 16vw;
     font-size: 1.4vw;
     text-align: center;
-}
-.text-n-navigasi{
+  }
+  .text-n-navigasi {
     flex-direction: column;
-}
-.contact-n-info{
+  }
+  .contact-n-info {
     flex-direction: column;
-}
-.footer-title{
+  }
+  .footer-title {
     font-size: 1.8vw;
-}
-.footer-line-title{
+  }
+  .footer-line-title {
     width: 32vw;
-}
-.footer-text .logo h1{
+  }
+  .footer-text .logo h1 {
     font-size: 4vw;
     height: 5vw;
-}
-.footer-text p{
+  }
+  .footer-text p {
     font-size: 1.5vw;
     width: 80%;
-}
-.footer-text{
+  }
+  .footer-text {
     margin-bottom: 10%;
-}
-.navigasi-box p,.contact-n-info p{
+  }
+  .navigasi-box p,
+  .contact-n-info p {
     font-size: 1.5vw;
-}
-.footer-navigasi .carousel-control-next-icon{
+  }
+  .footer-navigasi .carousel-control-next-icon {
     width: 2vw;
     height: 1.5vw;
-    }
+  }
 
-.footer-contact{
+  .footer-contact {
     margin-bottom: 18%;
-}
-.footer-info p{
-width: 150%;
-}
-.footer-btn{
+  }
+  .footer-info p {
     width: 150%;
+  }
+  .footer-btn {
+    width: 150%;
+  }
 }
-}
-@media screen and (max-width:576px){
-  
-#myNavbar{
-    height: 10vw;background-color: #636363;
-}
-#myNavbar .container-fluid{
+@media screen and (max-width: 576px) {
+  #myNavbar {
+    height: 10vw;
+    background-color: #636363;
+  }
+  #myNavbar .container-fluid {
     height: 5vw;
-}
-#myNavbar .navbar-brand .logo h1{
+  }
+  #myNavbar .navbar-brand .logo h1 {
     font-size: 3vw;
-}
-#myNavbar .navbar-toggler{
-  height: 80%;
-  width: 10%;
-  padding: 1%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#myNavbar .navbar-toggler-icon{
-  height: 80%;
-  width: 90%;
-}
+  }
+  #myNavbar .navbar-toggler {
+    height: 80%;
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #myNavbar .navbar-toggler-icon {
+    height: 80%;
+    width: 90%;
+  }
 
-.iklan-container{
+  .iklan-container {
     flex-direction: column;
-    background: linear-gradient(#000,rgba(59,59,59),#000);
-}
+    background: linear-gradient(#000, rgba(59, 59, 59), #000);
+  }
 
-.iklan-box{
+  .iklan-box {
     flex-direction: row;
     align-items: center;
     margin: 4% 0 4% 4%;
-   
-}    
-.iklan-box.dua{
+  }
+  .iklan-box.dua {
     background: rgba(0, 0, 0, 0);
-}
+  }
 
-.iklan-box .stopwatch,.heart,.iklan-box .book{
+  .iklan-box .stopwatch,
+  .heart,
+  .iklan-box .book {
     font-size: 8vw;
     color: var(--hijau);
     margin: 0;
   }
 
- .text-iklan{
-     margin: 2%;
- } 
-.iklan-box p:nth-child(1) {
+  .text-iklan {
+    margin: 2%;
+  }
+  .iklan-box p:nth-child(1) {
     font-size: 3vw;
     margin-bottom: 0;
-    
   }
   .iklan-box p:nth-child(2) {
     width: 90%;
@@ -193,8 +193,8 @@ width: 150%;
     opacity: 0.8;
     margin-bottom: 0;
   }
- 
-.hr-span span {
+
+  .hr-span span {
     width: 5vw;
     height: 2.5px;
   }
@@ -203,14 +203,13 @@ width: 150%;
   }
   .about-title p {
     font-size: 1.7vw;
-    
   }
   #card-about {
     width: 30vw;
     height: 35vw;
   }
-  .card-body{
-      padding: 8% ;
+  .card-body {
+    padding: 8%;
   }
   #card-about .card-text {
     font-size: 1.6vw;
@@ -230,10 +229,10 @@ width: 150%;
   .icon-container ion-icon {
     font-size: 3.5vw;
   }
-/* ------------------ */
-  .portofolio-title h3{
-  font-size: 3.5vw;
- margin-top: 20% !important;
+  /* ------------------ */
+  .portofolio-title h3 {
+    font-size: 3.5vw;
+    margin-top: 20% !important;
   }
   .portofolio-container .portofolio-button-container {
     margin: 0 10% 0 10%;
@@ -243,8 +242,8 @@ width: 150%;
     height: 5vw !important;
     font-size: 1.5vw !important;
   }
-  .portofolio-card-container{
-      gap: 3% !important;
+  .portofolio-card-container {
+    gap: 3% !important;
   }
   #card-portofolio {
     width: 26vw;
@@ -255,97 +254,94 @@ width: 150%;
   #card-portofolio .card-text {
     font-size: 1.5vw;
   }
-.portofolio-title.testimonials-title{
-  margin-top: 7%;
-}
-  .testimonials-container .card-title{
-      font-size: 3vw;
+  .portofolio-title.testimonials-title {
+    margin-top: 7%;
   }
-  .testimonials-container .rounded-circle{
+  .testimonials-container .card-title {
+    font-size: 3vw;
+  }
+  .testimonials-container .rounded-circle {
     width: 10vw;
   }
 
-  .box-testimonials p:nth-child(3){
+  .box-testimonials p:nth-child(3) {
     font-size: 1.8vw;
   }
-  .label{
+  .label {
     width: 1.5vw;
     height: 1.5vw;
   }
-  .tim-title{
+  .tim-title {
     margin-top: 0 !important;
   }
-.tim .tim-title h3{
-  font-size: 3.5vw;
-  margin-top: 1% !important;
-}
-  .text-center.mt-3{
+  .tim .tim-title h3 {
+    font-size: 3.5vw;
+    margin-top: 1% !important;
+  }
+  .text-center.mt-3 {
     font-size: 2vw;
-  
   }
-  .tim .tim-galery{
-    flex-direction: column ;
+  .tim .tim-galery {
+    flex-direction: column;
     gap: 3vw !important;
   }
-  .galery.satu,.galery.dua{
+  .galery.satu,
+  .galery.dua {
     gap: 3vw !important;
   }
-  .tim-galery img{
+  .tim-galery img {
     width: 30vw;
   }
-/* -------- */
-#kontak .tim-title h3{
-  font-size: 3.5vw;
-}
-#kontak .tim-title  .text-center.mt-3{
-  font-size: 1.7vw;
+  /* -------- */
+  #kontak .tim-title h3 {
+    font-size: 3.5vw;
+  }
+  #kontak .tim-title .text-center.mt-3 {
+    font-size: 1.7vw;
+  }
+  .kontak-addres ion-icon {
+    font-size: 5vw !important;
+  }
+  .kontak-addres h3 {
+    margin-top: 10% !important;
+  }
+  .kontak-addres p {
+    width: 120% !important;
+  }
+  .form {
+    margin-top: 5%;
+  }
+  .field {
+    font-size: 2vw;
+  }
+  .btn {
+    height: 120% !important;
+    font-size: 2vw !important;
+  }
+  /* --------------- */
 
-}
-.kontak-addres ion-icon{
-font-size: 5vw !important;
-}
-.kontak-addres h3{
-margin-top: 10% !important;
-}
-.kontak-addres p{
-width: 120% !important;
-}
-.form{
-  margin-top: 5%;
-}
-.field {
-  font-size: 2vw;
-}
-.btn {
-  height: 120% !important;
-  font-size: 2vw !important;
-}
-/* --------------- */
+  .footer-container {
+    gap: 0 !important;
+  }
+  .footer-title {
+    font-size: 2vw;
+  }
 
-.footer-container{
-  gap: 0 !important;
-}
-.footer-title{
-  font-size: 2vw;
-}
-
-.footer p {
-  font-size: 1.7vw;
-}
-.text-n-navigasi{
-  width: 100%;
-}
-.footer-text .logo h1{
-  font-size: 5vw;
-  height: 6.5vw;
-}
-.footer-icon{
-  width:5vw ;
-  height:5vw ;
-}
-.footer-socialMedia-icon ion-icon{
-  font-size: 2.5vw;
-}
-
-
+  .footer p {
+    font-size: 1.7vw;
+  }
+  .text-n-navigasi {
+    width: 100%;
+  }
+  .footer-text .logo h1 {
+    font-size: 5vw;
+    height: 6.5vw;
+  }
+  .footer-icon {
+    width: 5vw;
+    height: 5vw;
+  }
+  .footer-socialMedia-icon ion-icon {
+    font-size: 2.5vw;
+  }
 }
