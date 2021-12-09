@@ -1,15 +1,11 @@
 @media screen and (max-width:768px){
     #myNavbar{
-        /* height: 8vw; */
+        height: 8vw;
         width: 100vw;
     }
     #myNavbar .logo{
        justify-self: start;
     }
-    #myNavbar .collapse{
-        display: flex;
-    }
-
   
     .text-bank {
       width: 40%;
@@ -141,19 +137,29 @@ width: 150%;
 @media screen and (max-width:576px){
   
 #myNavbar{
-    height: 1vw;
+    height: 10vw;background-color: #636363;
 }
 #myNavbar .container-fluid{
     height: 5vw;
 }
 #myNavbar .navbar-brand .logo h1{
     font-size: 3vw;
-    margin: 0;
+}
+#myNavbar .navbar-toggler{
+  height: 80%;
+  width: 10%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#myNavbar .navbar-toggler-icon{
+  height: 80%;
+  width: 90%;
 }
 
 .iklan-container{
     flex-direction: column;
-
     background: linear-gradient(#000,rgba(59,59,59),#000);
 }
 
@@ -234,8 +240,8 @@ width: 150%;
     width: 70%;
   }
   .portofolio-container .portofolio-button-container .btn {
-    height: 4vw;
-    font-size: 1.5vw;
+    height: 5vw !important;
+    font-size: 1.5vw !important;
   }
   .portofolio-card-container{
       gap: 3% !important;

@@ -12,8 +12,12 @@ body{
 }
 #myNavbar {
   background-color: #636363;
-  
+  height: 5vw  ;
 }
+#myNavbar .container-fluid{
+  background-color: #636363;
+}
+
 #myNavbar .nav-link {
   font-size: 1vw;
   font-weight: 500;
