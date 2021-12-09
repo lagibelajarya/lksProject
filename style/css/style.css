@@ -4,7 +4,7 @@ html {
   
 }
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 :root{
   --hijau:#00c500;
@@ -12,10 +12,7 @@ body{
 }
 #myNavbar {
   background-color: #636363;
-  height: 5vw  ;
-}
-#myNavbar .container-fluid{
-  background-color: #636363;
+ min-height: 5vw  ;
 }
 
 #myNavbar .nav-link {
@@ -26,17 +23,11 @@ body{
 #myNavbar .nav-link:hover {
   color: rgb(6, 155, 6);
 }
-#myNavbar .offcanvas{
-  display: none;
-}
+
 #beranda {
   height: 100%;
 }
-#container-beranda {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
+
 .logo{
   display: flex;
   align-items: center;
@@ -50,9 +41,6 @@ body{
   }
 
 .text-bank {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   width: 30%;
   height: 13vw;
   margin: 35% 2% 0 0;
@@ -70,8 +58,7 @@ body{
 }
 
 .iklan-container {
-  display: flex;
-  background-color: #000;
+    background-color: #000;
   color: #fff;
   width: 100%;
 }
@@ -112,10 +99,6 @@ body{
 }
 /* ---------- ------------------*/
 .about-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 5%;
 }
 .about-title {
@@ -189,10 +172,6 @@ body{
 /* ------------------ */
 .portofolio-container {
   background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   
 }
 .portofolio-title h3{
@@ -238,9 +217,6 @@ margin: 0;
 .testimonials-container .rounded-circle{
   width: 6vw;
 }
-.portofolio-container input{
-  visibility: hidden;
-}
 .label {
   width: 1vw;
   height: 1vw;
@@ -255,7 +231,7 @@ margin: 0;
 }
 
 .testimonials{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   width: 100vw;
 }
 .box-testimonials{
@@ -264,6 +240,7 @@ margin: 0;
 }
 .testimonials-container{
   width: 400%;
+  transition: all 1s;
 
 }
 .text-testimonials{
@@ -301,8 +278,7 @@ margin: 0;
 }
 .text-testimonials .align-self-end{
   width: 2.5vw;
-  margin-left: 36%;
-  position: absolute;
+
 }
 /* -------------- */
 .text-center.mt-3{

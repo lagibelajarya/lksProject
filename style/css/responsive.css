@@ -1,10 +1,13 @@
 @media screen and (max-width: 768px) {
   #myNavbar {
-    height: 8vw;
+    min-height: 8vw;
     width: 100vw;
   }
   #myNavbar .logo {
     justify-self: start;
+  }
+  #myNavbar .nav-link {
+    font-size: 1.7vw;
   }
 
   .text-bank {
@@ -52,6 +55,7 @@
   }
   .text-testimonials p {
     margin: 0;
+    margin-bottom: 5%;
     font-size: 1.5vw;
   }
   .box-testimonials p:nth-child(3) {
@@ -61,6 +65,12 @@
   .box-testimonials img {
     margin: 0;
   }
+  .label{
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+
+
   .text-center.mt-3 {
     font-size: 1.5vw;
   }
@@ -136,7 +146,7 @@
 }
 @media screen and (max-width: 576px) {
   #myNavbar {
-    height: 10vw;
+    min-height: 8vw;
     background-color: #636363;
   }
   #myNavbar .container-fluid {
@@ -144,17 +154,19 @@
   }
   #myNavbar .navbar-brand .logo h1 {
     font-size: 3vw;
+    
   }
   #myNavbar .navbar-toggler {
-    height: 80%;
-    width: 10%;
+    height: 6vw;
+    width: 8%;
+margin-right: 5%;
     padding: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   #myNavbar .navbar-toggler-icon {
-    height: 80%;
+    height: 5vw;
     width: 90%;
   }
 
@@ -267,6 +279,7 @@
   .box-testimonials p:nth-child(3) {
     font-size: 1.8vw;
   }
+
   .label {
     width: 1.5vw;
     height: 1.5vw;
