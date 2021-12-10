@@ -4,7 +4,7 @@ html {
   
 }
 body{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 :root{
   --hijau:#00c500;
@@ -41,8 +41,8 @@ body{
   }
 
 .text-bank {
-  width: 30%;
-  height: 13vw;
+  width: 35%;
+  height: 16vw;
   margin: 35% 2% 0 0;
   background-color: rgba(0, 0, 0, 0.4);
   color: #ffff;
@@ -50,11 +50,11 @@ body{
 }
 .text-bank .h5 {
   margin: 3% 3% 0 3%;
-  font-size: 1.3vw;
+  font-size: 1.7vw;
 }
 .text-bank p {
   margin: 5%;
-  font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .iklan-container {
@@ -231,7 +231,7 @@ margin: 0;
 }
 
 .testimonials{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   width: 100vw;
 }
 .box-testimonials{
@@ -249,23 +249,7 @@ margin: 0;
 .box-testimonials p:nth-child(3){
   font-size: 1.1vw;
 }
-/* 
 
-#r1:checked ~ .testimonials-container {
-  margin-left: 40% ;
-  transition: all 0.5s;
-}
-#r2:checked ~ .testimonials-container {
-  transition: all 0.5s;
-}
-#r3:checked ~ .testimonials-container {
-  margin-left: -20%;
-  transition: all 0.5s;
-}
-#r4:checked ~ .box-testimonials {
- margin-left:-40% ;
-  transition: all 0.5s;
-}   */
 
 .text-center{
   font-family: 'Merriweather', serif;
